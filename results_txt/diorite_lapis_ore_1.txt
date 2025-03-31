@@ -1,0 +1,5 @@
+gray
+stone
+lapis
+blue
+diamond

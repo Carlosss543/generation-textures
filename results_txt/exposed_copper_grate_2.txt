@@ -1,0 +1,9 @@
+copper
+grate
+metal
+holes
+patterned
+grid
+square
+brown
+lines

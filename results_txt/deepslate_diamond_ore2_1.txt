@@ -1,0 +1,5 @@
+blue
+diamond
+ore
+cube
+stone

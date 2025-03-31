@@ -1,0 +1,7 @@
+red
+sandstone
+brick
+tile
+mosaic
+pattern
+cobblestone

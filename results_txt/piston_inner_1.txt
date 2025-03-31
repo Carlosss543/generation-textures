@@ -1,0 +1,8 @@
+black
+hole
+metal
+rectangular
+border
+square
+top
+object

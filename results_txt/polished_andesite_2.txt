@@ -1,0 +1,6 @@
+grey
+stone
+rock
+smooth
+pattern
+tile

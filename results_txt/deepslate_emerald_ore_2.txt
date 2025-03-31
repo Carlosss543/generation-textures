@@ -1,0 +1,5 @@
+emerald
+ore
+green
+stone
+mossy

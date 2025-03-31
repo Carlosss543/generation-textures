@@ -1,0 +1,10 @@
+flowers
+tulip
+plant
+red
+bloom
+natural
+garden
+orange
+petal
+green

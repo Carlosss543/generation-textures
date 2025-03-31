@@ -1,0 +1,7 @@
+magenta
+terracotta
+bricks
+red
+squares
+uniform
+pattern

@@ -1,0 +1,6 @@
+black
+hole
+circle
+top
+square
+pattern

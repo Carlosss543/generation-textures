@@ -1,0 +1,7 @@
+yellow
+glass
+stained
+square
+patterned
+window
+opaque

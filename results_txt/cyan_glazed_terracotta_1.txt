@@ -1,0 +1,8 @@
+cyan
+blue
+green
+stone
+brick
+ceramic
+glaze
+tile

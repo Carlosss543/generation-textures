@@ -1,0 +1,6 @@
+stove
+oven
+metal
+black
+grate
+grill

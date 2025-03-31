@@ -1,0 +1,5 @@
+copper
+metal
+square
+border
+corners

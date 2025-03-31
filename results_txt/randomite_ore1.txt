@@ -1,0 +1,17 @@
+red
+blue
+gray
+gold
+green
+brown
+purple
+black
+orange
+yellow
+star
+diamond
+gem
+ore
+rock
+metallic
+natural

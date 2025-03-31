@@ -1,0 +1,4 @@
+red
+square
+stripe
+explosion

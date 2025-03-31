@@ -1,0 +1,7 @@
+darkness
+red
+yellow
+spot
+circular
+pattern
+cluster

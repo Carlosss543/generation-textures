@@ -1,0 +1,7 @@
+lapis
+blue
+mineral
+ore
+gem
+glowing
+square

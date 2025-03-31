@@ -1,0 +1,5 @@
+map
+earth
+globe
+table
+wooden

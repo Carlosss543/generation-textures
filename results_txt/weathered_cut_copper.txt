@@ -1,0 +1,7 @@
+weathered
+cut
+copper
+stone
+worn
+rustic
+metal

@@ -1,0 +1,9 @@
+destroy
+stage
+destruction
+crumbling
+stone
+concrete
+gray
+rough
+broken

@@ -1,0 +1,6 @@
+copper
+door
+metal
+brown
+red
+rusty

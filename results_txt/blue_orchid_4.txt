@@ -1,0 +1,5 @@
+blue
+flower
+plant
+stem
+bud

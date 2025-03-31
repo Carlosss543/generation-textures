@@ -1,0 +1,5 @@
+stone
+brick
+grey
+green
+moss

@@ -1,0 +1,8 @@
+wood
+log
+brown
+striped
+spruce
+pattern
+grain
+natural

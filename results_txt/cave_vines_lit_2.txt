@@ -1,0 +1,15 @@
+fruit
+leaf
+vine
+glowing
+cave
+decoration
+plant
+organic
+lit
+tropical
+exotic
+jungle
+growth
+green
+brown

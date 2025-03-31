@@ -1,0 +1,8 @@
+blue
+stone
+mineral
+ore
+surface
+pattern
+natural
+blueberry

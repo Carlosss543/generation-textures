@@ -1,0 +1,6 @@
+black
+stone
+gray
+brick
+tile
+double

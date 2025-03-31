@@ -1,0 +1,8 @@
+warped
+purple
+black
+door
+bottom
+wood
+twisted
+grained

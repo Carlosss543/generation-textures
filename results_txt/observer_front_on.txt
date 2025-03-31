@@ -1,0 +1,7 @@
+red
+brown
+grey
+square
+rectangle
+stone
+mossy

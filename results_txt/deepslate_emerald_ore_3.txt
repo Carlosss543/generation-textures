@@ -1,0 +1,9 @@
+green
+diamond
+ore
+emerald
+mineral
+earth
+gemstone
+crystal
+blue

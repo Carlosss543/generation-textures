@@ -1,0 +1,8 @@
+green
+crystal
+gemstone
+shiny
+mineral
+cube
+stone
+metallic

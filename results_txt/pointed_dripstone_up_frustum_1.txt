@@ -1,0 +1,5 @@
+gray
+stone
+pointy
+top
+frustum

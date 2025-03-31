@@ -1,0 +1,4 @@
+lit
+fire
+flame
+glow

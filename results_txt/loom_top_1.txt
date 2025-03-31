@@ -1,0 +1,8 @@
+loom
+fabric
+weave
+top
+lines
+pattern
+squares
+stripes

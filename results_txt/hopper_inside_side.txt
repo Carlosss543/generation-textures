@@ -1,0 +1,6 @@
+copper
+door
+metal
+blue
+ore
+brick

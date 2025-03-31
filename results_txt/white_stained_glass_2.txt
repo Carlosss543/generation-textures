@@ -1,0 +1,8 @@
+white
+glass
+stained
+square
+pane
+transparent
+window
+clean

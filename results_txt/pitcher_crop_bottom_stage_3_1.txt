@@ -1,0 +1,8 @@
+green
+plant
+leaf
+bottom
+stage
+crop
+flower
+growth

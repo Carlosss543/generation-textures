@@ -1,0 +1,9 @@
+deepslate
+gold
+stone
+mineral
+yellow
+ore
+pixelation
+pattern
+gemstone

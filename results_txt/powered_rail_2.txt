@@ -1,0 +1,6 @@
+metal
+rail
+grey
+brown
+gold
+power

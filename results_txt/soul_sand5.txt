@@ -1,0 +1,6 @@
+black
+sandy
+brown
+grainy
+rough
+earthy

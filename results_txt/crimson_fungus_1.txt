@@ -1,0 +1,6 @@
+red
+plant
+wood
+fungus
+mushroom
+bark

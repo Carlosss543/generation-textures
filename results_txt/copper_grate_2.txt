@@ -1,0 +1,8 @@
+copper
+grate
+square
+mesh
+pattern
+grid
+metal
+rust

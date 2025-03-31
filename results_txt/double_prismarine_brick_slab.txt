@@ -1,0 +1,5 @@
+red
+stone
+brick
+slab
+prismarine

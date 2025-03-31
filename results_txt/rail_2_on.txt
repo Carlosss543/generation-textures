@@ -1,0 +1,11 @@
+rail
+iron
+metallic
+silver
+long
+thin
+horizontal
+straight
+elevated
+connector
+object

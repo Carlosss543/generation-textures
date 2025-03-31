@@ -1,0 +1,7 @@
+blue
+lapis
+ore
+stone
+gem
+underground
+mineral

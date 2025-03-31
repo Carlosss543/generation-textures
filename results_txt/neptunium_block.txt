@@ -1,0 +1,9 @@
+neptunium
+cube
+grid
+pattern
+square
+green
+metallic
+shiny
+gemstone

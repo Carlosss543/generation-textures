@@ -1,0 +1,15 @@
+blue
+red
+yellow
+copper
+metal
+stone
+ore
+rough
+blocky
+square
+patterned
+dark
+light
+contrast
+inorganic

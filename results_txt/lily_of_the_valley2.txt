@@ -1,0 +1,9 @@
+green
+plant
+flower
+leaf
+stem
+bulb
+bloom
+botanical
+nature

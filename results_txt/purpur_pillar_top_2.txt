@@ -1,0 +1,6 @@
+stone
+purple
+square
+pattern
+pillar
+top

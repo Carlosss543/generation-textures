@@ -1,0 +1,16 @@
+brown
+pot
+iron
+stove
+surface
+flat
+smooth
+warm
+color
+object
+top
+cover
+handle
+metal
+oven
+stove-top

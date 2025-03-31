@@ -1,0 +1,6 @@
+flower
+red
+tulip
+leaves
+stem
+plant

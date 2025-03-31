@@ -1,0 +1,6 @@
+red
+circular
+egg
+not cracked
+west
+16x16 texture

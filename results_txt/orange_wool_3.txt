@@ -1,0 +1,6 @@
+orange
+fabric
+carpet
+rug
+woven
+material

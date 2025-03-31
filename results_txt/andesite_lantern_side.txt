@@ -1,0 +1,5 @@
+grey
+stone
+lantern
+panel
+rectangle

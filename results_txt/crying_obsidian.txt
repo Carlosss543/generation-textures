@@ -1,0 +1,4 @@
+black
+obsidian
+purple
+crystalline

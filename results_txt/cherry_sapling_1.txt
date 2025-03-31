@@ -1,0 +1,10 @@
+tree
+leaf
+blossom
+flower
+pink
+white
+light brown
+green
+stem
+branch

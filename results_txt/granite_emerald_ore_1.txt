@@ -1,0 +1,6 @@
+granite
+emerald
+ore
+stone
+green
+gems

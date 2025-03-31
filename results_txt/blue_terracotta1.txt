@@ -1,0 +1,9 @@
+blue
+terracotta
+clay
+pottery
+ceramic
+container
+tile
+mosaic
+decor

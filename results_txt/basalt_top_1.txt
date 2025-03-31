@@ -1,0 +1,7 @@
+gray
+stone
+rough
+pattern
+dark
+black
+mossy

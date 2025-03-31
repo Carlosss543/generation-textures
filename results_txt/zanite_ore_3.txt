@@ -1,0 +1,8 @@
+copper
+gem
+ore
+cube
+cluster
+purple
+mineral
+crystal

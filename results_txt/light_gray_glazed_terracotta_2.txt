@@ -1,0 +1,8 @@
+gray
+glazed
+terracotta
+square
+brick
+tile
+smooth
+polished

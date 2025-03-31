@@ -1,0 +1,9 @@
+stone
+bricks
+cobblestone
+wall
+pattern
+building
+architecture
+gray
+concrete

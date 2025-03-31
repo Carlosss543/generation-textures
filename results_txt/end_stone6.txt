@@ -1,0 +1,12 @@
+end
+stone
+rock
+surface
+rough
+earthy
+brown
+yellowish
+mottled
+speckled
+uneven
+textured

@@ -1,0 +1,6 @@
+black
+stone
+brick
+square
+wall
+top

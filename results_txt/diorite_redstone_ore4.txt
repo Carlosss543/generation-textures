@@ -1,0 +1,7 @@
+diorite
+red
+ore
+cluster
+speckled
+stone
+mineral

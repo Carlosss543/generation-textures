@@ -1,0 +1,13 @@
+reinforced
+deepslate
+rock
+stone
+gray
+mossy
+brickwork
+pattern
+building
+fortification
+solid
+rugged
+dense

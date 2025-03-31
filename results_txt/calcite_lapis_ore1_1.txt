@@ -1,0 +1,4 @@
+calcite
+lapis
+ore
+gemstone

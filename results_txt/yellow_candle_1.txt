@@ -1,0 +1,9 @@
+yellow
+candle
+shape
+light
+object
+graphic
+pattern
+design
+digital

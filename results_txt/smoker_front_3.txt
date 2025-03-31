@@ -1,0 +1,6 @@
+wood
+brown
+door
+furnace
+cooking
+crafting

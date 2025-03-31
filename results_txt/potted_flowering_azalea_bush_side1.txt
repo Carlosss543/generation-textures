@@ -1,0 +1,4 @@
+pink_flowers
+green_leaves
+bush
+pot

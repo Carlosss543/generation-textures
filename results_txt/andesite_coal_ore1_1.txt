@@ -1,0 +1,5 @@
+gray
+brown
+square
+stone
+dirt

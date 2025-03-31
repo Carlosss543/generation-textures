@@ -1,0 +1,6 @@
+stone
+gray
+pointed
+dripstone
+down
+frustum

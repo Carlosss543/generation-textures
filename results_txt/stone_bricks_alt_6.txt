@@ -1,0 +1,9 @@
+gray
+stone
+bricks
+pattern
+masonry
+building material
+rectangular
+wall
+construction

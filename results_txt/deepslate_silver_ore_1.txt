@@ -1,0 +1,6 @@
+blue
+ore
+silver
+rock
+stone
+mine

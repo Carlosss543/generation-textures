@@ -1,0 +1,11 @@
+blue
+pattern
+lines
+grid
+square
+diamond
+black
+white
+gray
+contrast
+checkerboard

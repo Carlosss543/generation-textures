@@ -1,0 +1,8 @@
+dirt
+grass
+stone
+green
+brown
+gray
+overlay
+small

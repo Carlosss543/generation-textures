@@ -1,0 +1,14 @@
+wood
+brown
+front
+surface
+panel
+detail
+design
+object
+blocky
+image
+graphic
+art
+illustration
+digital

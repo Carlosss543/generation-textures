@@ -1,0 +1,6 @@
+observer
+black
+red
+white
+gray
+digital

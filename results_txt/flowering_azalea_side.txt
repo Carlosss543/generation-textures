@@ -1,0 +1,6 @@
+red
+purple
+flower
+plant
+leafy
+azalea

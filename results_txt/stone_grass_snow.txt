@@ -1,0 +1,11 @@
+stone
+grass
+snow
+brick
+roof
+mountain
+landscape
+blocky
+rugged
+earthy
+natural

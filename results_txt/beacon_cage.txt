@@ -1,0 +1,6 @@
+metal
+cage
+blue
+purple
+stone
+beacon

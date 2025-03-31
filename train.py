@@ -5,7 +5,7 @@ from tqdm import tqdm
 import matplotlib.pyplot as plt
 import clip
 from matplotlib.gridspec import GridSpec
-from DiT import DiT
+from ViT import ViT
 from config import config
 
 
@@ -48,7 +48,7 @@ class TextureDataset(Dataset):
         img_path = os.path.join(self.image_folder, img_name)
 
         # Charger l'image
-        image = Image.open(img_path).convert("RGB")
+        image = Image.open(img_path).convert("RGBA")
 
         # Appliquer les transformations si nécessaire
         if self.transform:
@@ -60,7 +60,7 @@ class TextureDataset(Dataset):
         return image, prompt
 
 
-mean, std = torch.tensor([0.5, 0.5, 0.5]), torch.tensor([0.5, 0.5, 0.5])
+mean, std = torch.tensor([0.5, 0.5, 0.5, 0.5]), torch.tensor([0.5, 0.5, 0.5, 0.5])
 
 transform = transforms.Compose([
     transforms.Resize((img_size, img_size)),
@@ -102,7 +102,7 @@ def sample(n_imgs, model, labels):
 
 
 
-model = DiT().to(device)
+model = ViT().to(device)
 optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
 mse = nn.MSELoss()
 

@@ -1,0 +1,4 @@
+emerald
+ore
+gemstone
+green

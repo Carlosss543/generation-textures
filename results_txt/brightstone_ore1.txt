@@ -1,0 +1,11 @@
+brown
+gold
+gem
+diamond
+shiny
+precious
+material
+stone
+earth
+ore
+mineral

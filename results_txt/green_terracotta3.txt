@@ -1,0 +1,4 @@
+green
+dirt
+terracotta
+mossy

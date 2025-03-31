@@ -1,0 +1,7 @@
+stone
+bricks
+gray
+weathered
+rough
+mortar
+west

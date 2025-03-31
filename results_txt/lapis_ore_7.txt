@@ -1,0 +1,7 @@
+lapis
+ore
+mineral
+blue
+cobalt
+cube
+grainy

@@ -1,0 +1,7 @@
+black
+rock
+rough
+blocky
+metallic
+natural
+ore

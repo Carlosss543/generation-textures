@@ -1,0 +1,8 @@
+dandelion
+yellow
+flower
+petal
+green
+grass
+plant
+seed

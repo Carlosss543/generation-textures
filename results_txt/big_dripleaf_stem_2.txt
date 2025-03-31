@@ -1,0 +1,9 @@
+stem
+green
+leafy
+dripleaf
+plant
+vegetation
+tree
+jungle
+big

@@ -1,0 +1,8 @@
+dark
+green
+wood
+tree
+top
+border
+edge
+door

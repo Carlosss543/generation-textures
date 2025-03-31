@@ -1,0 +1,6 @@
+red
+copper
+bulb
+oxidized
+lit
+powered

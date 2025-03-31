@@ -1,0 +1,13 @@
+quartz
+stone
+pattern
+geometric
+etched
+beveled
+carved
+chiseled
+angular
+jagged
+lines
+rough
+rugged

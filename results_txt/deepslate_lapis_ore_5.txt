@@ -1,0 +1,5 @@
+blue
+gray
+lapis
+stone
+deepstone

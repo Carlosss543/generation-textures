@@ -1,0 +1,9 @@
+ancient_debris
+mineral
+ore
+subtle texture
+dark gray
+grayish brown
+blocky
+3d
+cubic

@@ -1,0 +1,6 @@
+blue
+stone
+gem
+diamond
+crystalline
+mineral

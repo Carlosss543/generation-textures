@@ -1,0 +1,10 @@
+gray
+polished
+granite
+stone
+smooth
+rough
+rugged
+grainy
+material
+surface

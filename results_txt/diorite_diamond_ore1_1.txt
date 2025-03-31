@@ -1,0 +1,6 @@
+diorite
+diamond ore
+gray
+blue
+gem
+rock

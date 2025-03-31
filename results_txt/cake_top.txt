@@ -1,0 +1,10 @@
+fruit
+purple
+pink
+red
+green
+circle
+berries
+round
+border
+decoration

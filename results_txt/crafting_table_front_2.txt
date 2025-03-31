@@ -1,0 +1,6 @@
+wood
+brown
+table
+surface
+crafting
+slot

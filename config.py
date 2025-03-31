@@ -4,7 +4,7 @@ config = {
     "device": "cuda" if torch.cuda.is_available() else "cpu",
 
     "img_size": 16,
-    "img_channels": 3,
+    "img_channels": 4,
     "n_classes": -1,
 
     "batch_size": 64,

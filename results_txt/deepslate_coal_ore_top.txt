@@ -1,0 +1,9 @@
+black
+coal
+ore
+top
+smooth
+dark
+stone
+mossy
+mineral

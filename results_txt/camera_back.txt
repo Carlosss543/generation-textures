@@ -1,0 +1,12 @@
+camera
+back
+screen
+lens
+viewfinder
+grip
+strap
+design
+interface
+control
+object
+tool

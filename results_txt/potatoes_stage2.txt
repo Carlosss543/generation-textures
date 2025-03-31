@@ -1,0 +1,7 @@
+potato
+plant
+leafy
+stage2
+dirt
+roots
+green

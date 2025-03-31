@@ -1,0 +1,5 @@
+brown
+diamond
+coal
+stone
+ore

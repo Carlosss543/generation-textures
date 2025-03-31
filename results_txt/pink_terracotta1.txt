@@ -1,0 +1,8 @@
+pink
+terracotta
+brick
+smooth
+surface
+square
+patterned
+mauve

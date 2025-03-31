@@ -1,0 +1,6 @@
+gilded
+blackstone
+ore
+natural
+rugged
+stone

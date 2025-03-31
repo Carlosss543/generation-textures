@@ -1,0 +1,6 @@
+wooden
+rusted
+rail
+metal
+brown
+green

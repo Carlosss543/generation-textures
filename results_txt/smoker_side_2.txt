@@ -1,0 +1,5 @@
+metal
+door
+gray
+brown
+grates

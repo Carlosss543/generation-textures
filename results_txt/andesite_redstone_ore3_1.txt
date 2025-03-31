@@ -1,0 +1,8 @@
+andesite
+redstone
+ore
+red
+square
+stone
+mining
+resource

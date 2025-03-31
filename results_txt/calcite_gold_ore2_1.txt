@@ -1,0 +1,7 @@
+yellow
+gold
+gems
+rocks
+crystals
+minerals
+ore

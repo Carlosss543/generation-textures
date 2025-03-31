@@ -1,0 +1,6 @@
+red
+stone
+ore
+gem
+mineral
+rough

@@ -1,0 +1,5 @@
+stone
+door
+dark brown
+grey
+light brown

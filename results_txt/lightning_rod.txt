@@ -1,0 +1,8 @@
+wood
+brown
+bolt
+electric
+rod
+metallic
+end
+blue

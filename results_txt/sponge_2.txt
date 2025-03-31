@@ -1,0 +1,5 @@
+yellow
+circular
+dotted
+pattern
+material

@@ -1,0 +1,7 @@
+red
+copper
+brown
+bricks
+wood
+dirt
+clay

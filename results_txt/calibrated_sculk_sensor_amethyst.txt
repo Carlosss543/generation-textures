@@ -1,0 +1,5 @@
+purple
+gem
+amethyst
+crystal
+calibrated_sculk_sensor

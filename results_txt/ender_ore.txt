@@ -1,0 +1,10 @@
+green
+ore
+ender
+gem
+gemstone
+rare
+valuable
+magical
+dark
+mysterious

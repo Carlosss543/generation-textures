@@ -1,0 +1,4 @@
+white
+terracotta
+bricks
+square

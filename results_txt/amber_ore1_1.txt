@@ -1,0 +1,6 @@
+amber
+ore
+yellow
+gold
+shiny
+gemstone

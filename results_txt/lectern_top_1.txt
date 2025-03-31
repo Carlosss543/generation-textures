@@ -1,0 +1,6 @@
+paper
+book
+edge
+border
+brown
+paperback

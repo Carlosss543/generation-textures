@@ -1,0 +1,8 @@
+orange
+wool
+fabric
+natural
+warm
+cozy
+material
+thread

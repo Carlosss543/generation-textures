@@ -1,0 +1,15 @@
+wood
+brown
+white
+arrow
+triangle
+cross
+square
+red
+green
+blue
+pattern
+line
+surface
+design
+decoration

@@ -1,0 +1,6 @@
+purple
+pattern
+stone
+blocky
+voxel
+material
