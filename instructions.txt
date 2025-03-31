@@ -1,0 +1,8 @@
+commande pour activer l'environment virtuel:
+source ~/virtual_environments/env1/bin/activate
+
+chemin pour l'interpréteur python:
+~/virtual_environments/env1/bin/python
+
+commande pour copier des fichiers de mon ordinateur vers celui ci en ssh
+rsync -avz /Users/charles/Desktop/les_textures/result1/block/ cherr-24@137.194.192.217:~/projets/generation-textures/datasets/

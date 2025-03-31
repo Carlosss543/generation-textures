@@ -1,104 +1,26 @@
 import torch
 import torch.nn as nn
-from torchvision import transforms
 from tqdm import tqdm
 import matplotlib.pyplot as plt
-import clip
 from matplotlib.gridspec import GridSpec
 from DiT import DiT
 from config import config
+from load_dataset import train_loader, get_embedding
+from fonctions_diffusion import noise_imgs, sample
 
 
 
 # hyperparameters
-
 device = config["device"]
 img_size = config["img_size"]
 img_channels = config["img_channels"]
+mean = config["mean"]
+std = config["std"]
 n_classes = config["n_classes"]
 batch_size = config["batch_size"]
 n_epochs = config["n_epochs"]
 learning_rate = config["learning_rate"]
 T = config["T"]
-
-
-
-# dataset
-
-import os
-from PIL import Image
-from torch.utils.data import Dataset, DataLoader
-
-import warnings
-warnings.filterwarnings("ignore", category=UserWarning, message=".*Transparency expressed in bytes.*")
-warnings.filterwarnings("ignore", message=".*Clipping input data to the valid range for imshow with RGB data.*")
-
-class TextureDataset(Dataset):
-
-    def __init__(self, image_folder, transform=None):
-        self.image_folder = image_folder
-        self.image_files = sorted(os.listdir(image_folder))  # Trier pour un ordre stable
-        self.transform = transform
-
-    def __len__(self):
-        return len(self.image_files)
-
-    def __getitem__(self, idx):
-        img_name = self.image_files[idx]
-        img_path = os.path.join(self.image_folder, img_name)
-
-        # Charger l'image
-        image = Image.open(img_path).convert("RGB")
-
-        # Appliquer les transformations si nécessaire
-        if self.transform:
-            image = self.transform(image)
-
-        # Utiliser le nom du fichier sans extension comme label (prompt)
-        prompt = os.path.splitext(img_name)[0]  # Enlever ".jpg", ".png", etc.
-
-        return image, prompt
-
-
-mean, std = torch.tensor([0.5, 0.5, 0.5]), torch.tensor([0.5, 0.5, 0.5])
-
-transform = transforms.Compose([
-    transforms.Resize((img_size, img_size)),
-    transforms.ToTensor(),
-    transforms.Normalize(mean, std)
-])
-
-dataset = TextureDataset("block", transform=transform)
-train_loader = DataLoader(dataset, batch_size=batch_size, shuffle=True, num_workers=4)
-
-
-# pour obtenir des tokens à partir des noms des textures
-clip_model, preprocess = clip.load("ViT-B/32", device=device)
-
-def get_embedding(prompt):
-    with torch.no_grad():
-        text_tokens = clip.tokenize(prompt).to(device)
-        text_embedding = clip_model.encode_text(text_tokens)
-    text_embedding /= text_embedding.norm(dim=-1, keepdim=True)
-    return text_embedding.to(torch.float32)
-
-
-
-def noise_imgs(x1, t):
-    t = t.view(-1, 1, 1, 1)
-    x0 = torch.randn_like(x1, device=device)
-    xt = (1 - t) * x0 + t * x1
-    return xt, x0
-
-def sample(n_imgs, model, labels):
-    model.eval()
-    with torch.no_grad():
-        xt = torch.randn((n_imgs, img_channels, img_size, img_size), device=device)
-        for t in torch.linspace(0, 1, T):
-            t = t.expand(xt.shape[0]).view(-1, 1).to(device)
-            xt = xt + 1/T * model(xt, t, labels)
-    model.train()
-    return xt
 
 
 
@@ -118,7 +40,17 @@ print(f"Num params: {(sum(p.numel() for p in model.parameters())) / 1e6} M")
 
 
 
-for epoch in tqdm(range(n_epochs)):
+# load pretrained model
+start_epoch = 10
+if start_epoch > 0:
+    model.load_state_dict(torch.load(f"./sauvegardes_entrainement/model_epoch_{start_epoch}.pth"))
+    optimizer.load_state_dict(torch.load(f"./sauvegardes_entrainement/optimizer_epoch_{start_epoch}.pth"))
+    loss_list = torch.load(f"./sauvegardes_entrainement/loss_list_epoch_{start_epoch}.pth")
+    print(f"Model loaded from epoch {start_epoch}")
+
+
+
+for epoch in tqdm(range(start_epoch+1, n_epochs)):
     for i, (train_imgs, textes) in enumerate(train_loader):
 
         x1 = train_imgs.to(device)
@@ -138,6 +70,12 @@ for epoch in tqdm(range(n_epochs)):
 
         if i%1 == 0:
             loss_list.append(loss.item())
+
+
+    if (epoch+1) % 10 == 0:
+        torch.save(model.state_dict(), f"./sauvegardes_entrainement/model_epoch_{epoch+1}.pth")
+        torch.save(optimizer.state_dict(), f"./sauvegardes_entrainement/optimizer_epoch_{epoch+1}.pth")
+        torch.save(loss_list, f"./sauvegardes_entrainement/loss_list_epoch_{epoch+1}.pth")
 
 
     if epoch % 1 == 0:

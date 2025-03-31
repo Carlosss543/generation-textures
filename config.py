@@ -6,6 +6,8 @@ config = {
     "img_size": 16,
     "img_channels": 3,
     "n_classes": -1,
+    "mean": torch.tensor([0.5, 0.5, 0.5]),
+    "std": torch.tensor([0.5, 0.5, 0.5]),
 
     "batch_size": 64,
     "n_epochs": 1000,
